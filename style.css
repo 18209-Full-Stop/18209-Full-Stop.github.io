@@ -266,8 +266,7 @@ section p{
     grid-template-rows: auto;
     grid-template-areas:
     "img-1 img-2 img-3 img-4"
-    "img-5 img-6 img-7 img-8"
-    ". img-9 img-10 .";
+    "img-5 img-6 img-7 .";
     gap: 0.5em;
     font-size:10px;
 }
