@@ -280,7 +280,7 @@ section p{
     grid-area: img-10;
 }
 
-.team-container2 img{
+.grid-container img, team-container2 img{
     height: 100%;
     width: 100%;
     border-radius: .5em;
@@ -447,7 +447,6 @@ input[type="submit"]:hover{
         width: 100%;
         height: 150px;
         border-radius: .5em;
-        transition: 100ms ease;
     }
 
 }
