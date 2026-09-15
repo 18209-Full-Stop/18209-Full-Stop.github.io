@@ -14,6 +14,7 @@
     /* #F3F7F9 */
     --color-3:#BBE1FA;
     --fade-color:rgba(50,130,184,0.65);
+	--marquee-color:rgba(255, 255, 0, 1);
 
     /* --color-3:#F6F3F9; */
 
@@ -80,7 +81,7 @@ nav a:hover{
 }
 
 .marquee-background {
-    border: 2px solid white ;
+   	background-color: var(--marquee-color);
     display: flex ;
     overflow: hidden ;
     white-space: nowrap ;
@@ -88,25 +89,7 @@ nav a:hover{
 }
 
 .marquee-text {
-    animation-duration: 4s ;
-    animation-iteration-count: infinite ;
-    animation-name: marquee-text ;
-    animation-timing-function: linear ;
-    padding: 5px 15px 5px 15px ;
-}
-
-.marquee:hover .marquee-text {
-			animation-play-state: paused ;
-}
-
-
-@keyframes marquee-text {
-    from {
-        transform: translateX(100vw);
-    }
-    to {
-        transform: translateX( -100% );
-    }
+	color: var(--text-color);
 }
 
 section {
