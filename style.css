@@ -85,14 +85,14 @@ nav a:hover{
     display: flex ;
     overflow: hidden ;
     white-space: nowrap ;
-    width: 100%;
+    width: 40%;
 	padding: min(2em, 15%);
 	border-radius: 1em;
 	justify-content: center;
 }
 
 .marquee-text {
-	animation-duration: 5s ;
+	animation-duration: 3s ;
 	animation-iteration-count: infinite ;
 	animation-name: marquee-content ;
 	animation-timing-function: linear ;
