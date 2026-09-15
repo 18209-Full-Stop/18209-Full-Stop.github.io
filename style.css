@@ -189,7 +189,7 @@ h1{
 .content{
     display:flex;
     flex-direction:column;
-    margin-top: 30%;
+    margin-top: 20%;
     max-width: 620px;
     background-color:var(--fade-color);
     padding: 2em;
