@@ -85,19 +85,14 @@ nav a:hover{
     display: flex ;
     overflow: hidden ;
     white-space: nowrap ;
-    width: 40%;
 	padding: min(2em, 15%);
 	border-radius: 1em;
 	justify-content: center;
 }
 
 .marquee-text {
-	animation-duration: 3s ;
-	animation-iteration-count: infinite ;
-	animation-name: marquee-content ;
-	animation-timing-function: linear ;
 	color: var(--text-color);
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 
 section {
@@ -108,18 +103,6 @@ section {
     border-radius: 1em;
 }
 
-.marquee-background:hover .marquee-text {
-	animation-play-state: paused ;
-}
-
-@keyframes marquee-content {
-	from {
-		transform: translateX(100%);
-	}
-	to {
-		transform: translateX( -100% );
-	}
-}
 
 .flex-container{
     display: flex;
