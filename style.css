@@ -93,6 +93,7 @@ nav a:hover{
 
 .marquee-text {
 	color: var(--text-color);
+	font-size: 2rem;
 }
 
 section {
