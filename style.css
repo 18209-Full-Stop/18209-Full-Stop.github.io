@@ -92,8 +92,12 @@ nav a:hover{
 }
 
 .marquee-text {
+	animation-duration: 5s ;
+	animation-iteration-count: infinite ;
+	animation-name: marquee-content ;
+	animation-timing-function: linear ;
 	color: var(--text-color);
-	font-size: 2rem;
+	font-size: 1rem;
 }
 
 section {
@@ -102,6 +106,19 @@ section {
     background-color: var(--color-1);
     padding: min(2em, 15%);
     border-radius: 1em;
+}
+
+.marquee-background:hover .marquee-text {
+	animation-play-state: paused ;
+}
+
+@keyframes marquee-content {
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX( -100% );
+	}
 }
 
 .flex-container{
