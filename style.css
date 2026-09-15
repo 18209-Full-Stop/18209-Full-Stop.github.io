@@ -84,7 +84,7 @@ nav a:hover{
     display: flex ;
     overflow: hidden ;
     white-space: nowrap ;
-    width: 300px ;
+    width: 100%; ;
 }
 
 .marquee-text {
@@ -97,7 +97,7 @@ nav a:hover{
 
 @keyframes marquee-text {
     from {
-        transform: translateX( 0% );
+        transform: translateX( 100% );
     }
     to {
         transform: translateX( -100% );
