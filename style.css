@@ -79,6 +79,31 @@ nav a:hover{
     text-decoration: underline;
 }
 
+.marquee-background {
+    border: 2px solid white ;
+    display: flex ;
+    overflow: hidden ;
+    white-space: nowrap ;
+    width: 300px ;
+}
+
+.marquee-text {
+    animation-duration: 4s ;
+    animation-iteration-count: infinite ;
+    animation-name: marquee-text ;
+    animation-timing-function: linear ;
+    padding: 5px 15px 5px 15px ;
+}
+
+@keyframes marquee-text {
+    from {
+        transform: translateX( 0% );
+    }
+    to {
+        transform: translateX( -100% );
+    }
+}
+
 section {
     margin: 2em auto;
     width: min(75em, 100%);
