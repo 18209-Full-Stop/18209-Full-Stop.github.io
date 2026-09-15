@@ -85,7 +85,10 @@ nav a:hover{
     display: flex ;
     overflow: hidden ;
     white-space: nowrap ;
-    width: 100%; ;
+    width: 100%;
+	padding: min(2em, 15%);
+	border-radius: 1em;
+	justify-content: center;
 }
 
 .marquee-text {
