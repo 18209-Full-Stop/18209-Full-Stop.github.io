@@ -95,9 +95,14 @@ nav a:hover{
     padding: 5px 15px 5px 15px ;
 }
 
+.marquee:hover .marquee-text {
+			animation-play-state: paused ;
+}
+
+
 @keyframes marquee-text {
     from {
-        transform: translateX( 100% );
+        transform: translateX(100vw);
     }
     to {
         transform: translateX( -100% );
