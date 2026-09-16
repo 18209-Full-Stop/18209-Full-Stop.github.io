@@ -401,6 +401,10 @@ input[type="submit"]:hover{
         text-align: center;
     }
 
+	.marquee-text {
+	font-size: 1rem;
+	}
+
     .team-container2{
         padding-top: 0.00001%;
         padding-bottom: 1%;
