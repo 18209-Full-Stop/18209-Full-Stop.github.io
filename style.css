@@ -301,7 +301,7 @@ section p{
     grid-area: img-10;
 }
 
-.grid-container img, team-container2 img{
+.grid-container img, .team-container2 img{
     height: 100%;
     width: 100%;
     border-radius: .5em;
@@ -413,12 +413,13 @@ input[type="submit"]:hover{
         padding-top: 0.00001%;
         padding-bottom: 1%;
         scale: 1.0;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
         grid-template-areas:
-        "img-1 img-2 img-3"
-        "img-4 img-5 img-6"
-        "img-7 img-8 img-9"
-        ". img-10 .";
+        "img-1 img-2"
+        "img-3 img-4"
+        "img-5 img-6"
+        "img-7 img-8"
+        "img-9 img-10";
         gap: 0.5em;
         font-size: 12px;
     }
@@ -480,6 +481,34 @@ input[type="submit"]:hover{
 
     li{
         font-size: 0.95em;
+    }
+
+    .sponsors-container{
+        padding-top: 1%;
+        padding-bottom:1%;
+        object-fit: cover;
+        margin: 3em auto;
+        align-items:center;
+        display: grid;
+        width: 100%;
+        max-width:1500px;
+        justify-items: center;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+        "img-1 img-2"
+        "img-3 img-4"
+        "img-5 img-6";
+        gap: 0.5em;
+        font-size:10px;
+    }
+
+    br + br {
+        display: none;
+    }
+
+    .shrink{
+        transform: scale(0.1);
     }
 
 }
