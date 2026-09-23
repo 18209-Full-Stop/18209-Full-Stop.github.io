@@ -503,12 +503,17 @@ input[type="submit"]:hover{
         font-size:10px;
     }
 
-    br + br {
-        display: none;
-    }
 
     .shrink{
         transform: scale(0.1);
+    }
+
+    .text-container p{
+        font-size: 0.9em;
+    }
+
+    h2{
+        font-size: 1.5em;
     }
 
 }
