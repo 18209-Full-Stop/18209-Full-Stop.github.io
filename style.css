@@ -269,8 +269,9 @@ section p{
     font-size:10px;
 }
 
-.sponsors-container img:hover{
+.sponsors-container img:hover, .history-container img:hover{
     scale: 1.05;
+    transition: 100ms ease;
 }
 
 .team-container2{
@@ -392,6 +393,21 @@ input[type="submit"]:hover{
 
 .contact-wrapper{
     color: var(--color-1);
+}
+
+.history-container{
+        display: flex;
+        justify-content: right;
+        object-fit: cover;
+        margin: 3em auto;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0.5em;
+    }
+
+.imageText-grid{
+    display: flex;
+    justify-content: left;
+    grid-template-columns: repeat(2,1fr);
 }
 
 @media (max-width: 768px){
