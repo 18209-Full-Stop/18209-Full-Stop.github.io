@@ -402,7 +402,7 @@ input[type="submit"]:hover{
         margin: 3em auto;
         grid-template-columns: repeat(2,1fr);
         gap: 0.5em;
-    }
+}
 
 .imageText-grid{
     display: flex;
@@ -530,6 +530,17 @@ input[type="submit"]:hover{
 
     h2{
         font-size: 1.5em;
+    }
+
+    .history-container{
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+    
+        width:50%;
+        margin: 3em auto;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0.5em;
     }
 
 }
