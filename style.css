@@ -537,7 +537,7 @@ input[type="submit"]:hover{
         justify-content: center;
         object-fit: cover;
     
-        width:50%;
+        width:40%;
         margin: 3em auto;
         grid-template-columns: repeat(2,1fr);
         gap: 0.5em;
